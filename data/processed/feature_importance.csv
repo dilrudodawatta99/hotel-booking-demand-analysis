@@ -1,0 +1,16 @@
+Original Feature,Importance
+lead_time,0.25167067859888353
+market_segment,0.16999321991509042
+customer_type,0.08622357053536878
+adr,0.08000026147292026
+previous_cancellations,0.0660284691789966
+distribution_channel,0.05654144616305427
+stays_in_week_nights,0.03710600489878973
+arrival_date_month,0.03498957937127759
+arrival_date_week_number,0.03366021411408332
+arrival_date_day_of_month,0.03014055106119136
+arrival_date_year,0.026320019933216754
+previous_bookings_not_canceled,0.021293879876450116
+reserved_room_type,0.02041863658203367
+hotel,0.01910045032817452
+stays_in_weekend_nights,0.01829468022965396

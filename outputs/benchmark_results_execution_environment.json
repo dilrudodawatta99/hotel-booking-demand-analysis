@@ -1,0 +1,87 @@
+{
+  "dataset": {
+    "rows": 119390,
+    "columns": 32
+  },
+  "method": "Six repetitions per operation; first run discarded as warm-up; median and min-max range calculated from the remaining five.",
+  "environment": {
+    "python": "3.13.5",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "logical_cpu_count": 3,
+    "warning": "These are measurements from the project-generation environment, not the student's own computer. Rerun scripts/benchmark_formats.py locally before using timings in the submitted report."
+  },
+  "formats": {
+    "CSV": {
+      "size_bytes": 16936121,
+      "write": {
+        "median_ms": 550.52,
+        "range_ms": [
+          540.89,
+          567.41
+        ]
+      },
+      "read_full": {
+        "median_ms": 126.01,
+        "range_ms": [
+          123.7,
+          129.61
+        ]
+      },
+      "read_one_column": {
+        "median_ms": 48.67,
+        "range_ms": [
+          47.34,
+          51.67
+        ]
+      }
+    },
+    "JSON Lines": {
+      "size_bytes": 90641092,
+      "write": {
+        "median_ms": 838.1,
+        "range_ms": [
+          731.42,
+          1028.41
+        ]
+      },
+      "read_full": {
+        "median_ms": 1458.1,
+        "range_ms": [
+          1420.14,
+          1773.39
+        ]
+      },
+      "read_one_column": {
+        "median_ms": 1557.94,
+        "range_ms": [
+          1456.49,
+          1754.56
+        ]
+      }
+    },
+    "Pickle": {
+      "size_bytes": 25177867,
+      "write": {
+        "median_ms": 38.07,
+        "range_ms": [
+          33.45,
+          39.67
+        ]
+      },
+      "read_full": {
+        "median_ms": 27.98,
+        "range_ms": [
+          26.73,
+          30.11
+        ]
+      },
+      "read_one_column": {
+        "median_ms": 29.45,
+        "range_ms": [
+          27.7,
+          77.86
+        ]
+      }
+    }
+  }
+}

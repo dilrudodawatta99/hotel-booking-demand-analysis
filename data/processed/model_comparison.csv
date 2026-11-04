@@ -1,0 +1,4 @@
+Model,Accuracy,Cancellation Precision,Cancellation Recall,Cancellation F1
+Logistic Regression (24 features),0.79,0.71,0.4,0.51
+Random Forest (24 features),0.76,0.54,0.78,0.64
+Random Forest (20 features),0.69,0.46,0.77,0.58

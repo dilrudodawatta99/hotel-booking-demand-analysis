@@ -1,0 +1,11 @@
+GZIP COMPRESSION RESULTS
+Original CSV size: 16,855,599 bytes
+
+CSV: 1,159,828 bytes (1132.64 KB)
+JSON Lines: 1,749,820 bytes (1708.81 KB)
+Pickle: 1,065,375 bytes (1040.41 KB)
+
+Python version: 3.12.10
+Pandas version: 2.2.3
+Operating system: Windows-11-10.0.26200-SP0
+Processor: Intel64 Family 6 Model 186 Stepping 3, GenuineIntel

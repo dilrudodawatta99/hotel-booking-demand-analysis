@@ -1,0 +1,33 @@
+﻿classDiagram
+    class DataLoader {
+        <<abstract>>
+        -_last_loaded_path
+        +last_loaded_path
+        +load(path)*
+    }
+
+    class CSVBookingLoader {
+        +load(path)
+    }
+
+    class DataQualityChecker {
+        +REQUIRED_COLUMNS
+        -_last_report
+        +last_report
+        +check(frame)
+    }
+
+    class DataQualityError {
+        <<exception>>
+    }
+
+    class BookingPipeline {
+        -_checker
+        -_quality_report
+        +quality_report
+        +prepare(frame)
+    }
+
+    DataLoader <|-- CSVBookingLoader
+    BookingPipeline --> DataQualityChecker
+    DataQualityChecker ..> DataQualityError : raises
